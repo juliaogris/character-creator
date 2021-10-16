@@ -8,6 +8,14 @@
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
+}
+
+.floor {
+  background: hsl(195deg, 20%, 86%);
+  position: fixed;
+  top: 60vh;
+  height: 40vh;
 }
 
 .title {
@@ -24,7 +32,13 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  left: 60%;
+  top: 150px;
+  height: 80vh;
+  min-height: 500px;
 }
 
 .controlColumn {
+  width: 50%;
 }
